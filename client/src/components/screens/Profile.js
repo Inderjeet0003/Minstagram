@@ -22,7 +22,7 @@ const Profile  = ()=>{
         data.append("file",image)
         data.append("upload_preset","insta-clone")
         data.append("cloud_name","cnq")
-        fetch("https://api.cloudinary.com/v1_1/cnq/image/upload",{
+        fetch("https://api.cloudinary.com/v1_1/dyn5gfr4y/image/upload",{
             method:"post",
             body:data
         })
@@ -49,7 +49,7 @@ const Profile  = ()=>{
        
         })
         .catch(err=>{
-            console.log(err)
+            // console.log(err)
         })
        }
     },[image])
