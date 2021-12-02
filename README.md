@@ -1,7 +1,6 @@
 # Minstagram
 
-Features :
-Sneaky features of Minstagram ✅ :
+Features of Minstagram ✅ :
 
 ⭐ Create Your Profile
 ⭐ LOgin & SignUp using Jwt token Authentication
